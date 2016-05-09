@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Majordome
 Cci est la version V1.0
 
@@ -24,3 +25,12 @@ D: création d'un lien symbolique
 Chronologie:
  crontab à minuit execute delcaptureTomorrow qui lance le prg delcaptureTomorrow.py qui lance delcapture(jour)
         
+=======
+# MajordomeV1.0
+Majordome version d'intégration de fin de session 2015-2016
+suis-je après commit un contributor Jean
+ajout Denis
+ajout Marc
+Ajout GL
+-----
+>>>>>>> d0adceb6390ba32d5f7f252d6860e3348e842d2d
