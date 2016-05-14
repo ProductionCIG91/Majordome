@@ -1,3 +1,0 @@
-#!/bin/bash
-cd /home/pi/Majordome/MJDprg
-python delcaptureToday.py
