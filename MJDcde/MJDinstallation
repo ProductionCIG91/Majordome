@@ -54,6 +54,22 @@ sudo ln -s $HOME/Majordome/MJDcde/delcaptureToday delcaptureToday
 sudo ln -s $HOME/Majordome/MJDcde/delcaptureYesterday delcaptureYesterday
 sudo ln -s $HOME/Majordome/MJDcde/PHOTODAY PHOTODAY
 
+echo mettre les liens en executable
+sudo chmod -v 777 $HOME/Majordome/bin/MJD
+sudo chmod -v 777 $HOME/Majordome/bin/sta
+sudo chmod -v 777 $HOME/Majordome/bin/stp
+sudo chmod -v 777 $HOME/Majordome/bin/smp
+
+sudo chmod -v 777 $HOME/Majordome/bin/SendStartCamera
+sudo chmod -v 777 $HOME/Majordome/bin/SendStopCamera
+sudo chmod -v 777 $HOME/Majordome/bin/IsCameraRunning
+sudo chmod -v 777 $HOME/Majordome/bin/SendMailPublicIP
+sudo chmod -v 777 $HOME/Majordome/bin/delcapture
+sudo chmod -v 777 $HOME/Majordome/bin/delcaptureToday
+sudo chmod -v 777 $HOME/Majordome/bin/delcaptureTomorrow
+sudo chmod -v 777 $HOME/Majordome/bin/delcaptureYesterday
+sudo chmod -v 777 $HOME/Majordome/bin/PHOTODAY
+
 # Suppression des liens symboliques s'il y a besoin
 #sudo unlink MJD
 #sudo unlink sta
@@ -72,7 +88,6 @@ sudo ln -s $HOME/Majordome/MJDcde/PHOTODAY PHOTODAY
 cd $HOME/Majordome
 pwd
 ls -lh
- 
 
 cd $HOME/Majordome/bin
 pwd
