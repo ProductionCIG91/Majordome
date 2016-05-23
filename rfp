@@ -1,0 +1,5 @@
+Evolutions à venir:
+  1. Gestion automatique de l'epace mémoire (répertoires capture) par l'intermédiaire de crontab,
+  2. Finalisation des fichiers installation/desinstallation Majordome,
+  3. Réalisation d'une procédure de test,
+  4. Lancement de Majordome par un Daemon.
